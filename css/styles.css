@@ -101,6 +101,38 @@ cursor: pointer;
   opacity: 0.4;
 }
 
+.button-copy {
+  padding: 10px 21px 7px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+background-color: var(--brand-color);
+color: #fff;
+text-transform: capitalize;
+text-decoration: none;
+cursor: pointer;
+}
+
+.button-primery {
+  border-radius: 10px;
+  padding: 18px 40px 16px;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 /* SITE-HEADER */
 .site-header {
   padding-top: 48px;
@@ -232,7 +264,7 @@ cursor: pointer;
 
 .cta{
   position: relative;
-  padding-top: 204px;
+  padding-top: 84px;
   padding-bottom: 120px;
   background-color: #EFF1F7;
 }
@@ -247,6 +279,7 @@ cursor: pointer;
 }
 
 .cta-form {
+  margin-bottom: 120px;
 }
 
 .cta-form-input {
@@ -260,9 +293,35 @@ line-height: 36px;
 letter-spacing: 0.15px;
 }
 
-.button-primery {
-  border-radius: 10px;
-  padding: 18px 40px 16px;
+.cta-form-lists {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 24px;
+}
+
+.cta-form-item {
+  display: flex;
+  padding: 18px 32px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.cta-form-item:not(:last-child){
+  margin-bottom: 16px;
+}
+
+.cta-form-url-text {
+  color: var(--header-text-color);
+  font-size: 20px;
+line-height: 36px;
+letter-spacing: 0.15px;
+}
+
+.cta-form-text {
+  color: var(--brand-color);
+  margin-left: auto;
+  margin-right: 24px;
 }
 
 .cta-header {
